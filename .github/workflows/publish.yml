@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - "main"
-    paths:
-      - "documentation/**"
 
 jobs:
   push_to_confluence:
